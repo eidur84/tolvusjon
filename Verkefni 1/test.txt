@@ -1,0 +1,38 @@
+Timing tests are done using for loop in range 10 and timer values averaged.
+
+Processing time for one frame:
+
+With just the frame rate added to each frame the time between frames (loops)
+ranges from about 1 ms to 100 ms
+
+average: 48,0 ms
+
+Processing time for one frame with brightness:
+
+The processing time doesn't change dramatically when bright spot detection
+is added, with time between frames ranging from 2 ms to little under 100 ms
+
+average: 48,8 ms
+
+Processing time with bright spot and red detection:
+
+Around the same as the others.
+
+average: 48,9 ms
+
+Processing time without image display:
+
+No, the processing time is sbout the same.
+
+Processing time using for loop for bright spot:
+
+It takes about twice the time that of the opencv function
+
+average: 84,7 ms
+
+Latency difference between laptop camera and phone:
+
+Didn't get to that part
+
+
+
